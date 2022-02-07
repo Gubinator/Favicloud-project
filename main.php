@@ -12,12 +12,12 @@
 
 	
 	<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="logo"></a>
-	<ul>
-		<a href=""><li>DASHBOARD</li></a>
-		<li>|</li>
-		<a href="register.php"><li>REGISTER</li></a>
-		<li>|</li>
-		<a href="login.php"><li>LOGIN</li></a>
+	<ul class="m-ul">
+		<a href="dashboard.php"><li class="m-li">DASHBOARD</li></a>
+		<li class="m-li">|</li>
+		<a href="register.php"><li class="m-li">REGISTER</li></a>
+		<li class="m-li">|</li>
+		<a href="login.php"><li class="m-li">LOGIN</li></a>
 	  </ul>
 
 	<main>

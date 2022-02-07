@@ -1,0 +1,26 @@
+body{
+	background: black;
+}
+
+#form{
+	
+	width: 17%;
+	height: 30%;
+	border-radius: 10px;
+	margin: 100px auto;
+	background: white;
+	font-family: Helvetica;
+	padding: 35px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+#button{
+	font-family: Helvetica;
+	color: black;
+	padding: 5px;
+	margin-left: 80%;
+}
+
+
+}

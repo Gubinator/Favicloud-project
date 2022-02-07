@@ -9,7 +9,13 @@
 </head>
 <body>
 
-	<form method="post" action="login.php">
+
+	<div class="header">
+			<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="pagelogo"></a>
+			<p class="Description">Login</p>
+	</div>
+
+	<form method="post" class="form-padding" action="login.php">
 
 		<?php include('errors.php'); ?>
 

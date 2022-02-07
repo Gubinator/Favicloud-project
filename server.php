@@ -1,5 +1,6 @@
 <?php
 session_start();
+session_id();
 
 $username="";
 $email="";
@@ -36,6 +37,18 @@ if(isset($_POST['register'])){
 		$sql="INSERT INTO FaviRegister (username, email, password) VALUES ('$username', '$email', '$password')";
 		mysqli_query($db, $sql);
 		$_SESSION['username'] = $username;
+		$_SESSION['id'] = '35';
+			$find_id_query="SELECT id FROM FaviRegister WHERE username='$username' AND password='$password'";
+			$result_id=mysqli_query($db, $find_id_query);
+			$row=mysqli_fetch_assoc($result_id);
+			if($row!=0){
+				$_SESSION['id'] =current($row);
+				//$_SESSION['id']=mysqli_real_escape_string($db,$result_id);
+				//$_SESSION['id'] ="6424";
+			}
+			else{
+				$_SESSION['id'] ="5444"; // ovo samo bezveze za debuggiranje
+			}
 		$_SESSION['success'] = "You are now logged in";
 		header('location: profile.php'); //Redirect to user-profile page
 	}
@@ -60,6 +73,18 @@ if(isset($_POST['register'])){
 		if(mysqli_num_rows($result) == 1){
 				//log user in
 			$_SESSION['username'] = $username;
+			$_SESSION['id'] = '35';
+			$find_id_query="SELECT id FROM FaviRegister WHERE username='$username' AND password='$password'";
+			$result_id=mysqli_query($db, $find_id_query);
+			$row=mysqli_fetch_assoc($result_id);
+			if($row!=0){
+				$_SESSION['id'] =current($row);
+				//$_SESSION['id']=mysqli_real_escape_string($db,$result_id);
+				//$_SESSION['id'] ="6424";
+			}
+			else{
+				$_SESSION['id'] ="5444";
+			}
 			$_SESSION['success'] = "You are now logged in";
 			header('location: profile.php'); //Redirect to user-profile page
 			} else{
