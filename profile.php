@@ -31,14 +31,14 @@
 				<h3>
 					<?php 
 						echo $_SESSION['success'];
-						unset($_SESSION['success']);
+						unset($_SESSION['success']); // Unsets $_SESSION['success'] value 
 					?>
 				</h3>
 			</div>
 		<?php endif ?>
 
 		<?php if (isset($_SESSION["username"])): ?>
-		<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
+		<p>Welcome <strong><?php echo $_SESSION['username']; ?></strong>.</p>
 		<p><a href="profile.php?logout='1'" style="color: red;">Logout</a></p>
 		<?php endif ?>
 	</div>

@@ -32,7 +32,7 @@
 	<ul class="m-ul">
 		<a href="dashboard.php"><li class="m-li">DASHBOARD</li></a>
 		<li class="m-li">|</li>
-		<a href="register.php"><li class="m-li">PROFILE</li></a>
+		<a href="profile.php"><li class="m-li">PROFILE</li></a>
 		<li class="m-li">|</li>
 		<a href="main-session.php?logout='1'.php"><li class="m-li">LOGOUT</li></a>
 	  </ul>

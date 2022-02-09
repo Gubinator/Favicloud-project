@@ -85,7 +85,7 @@ if(isset($_POST['register'])){
 			/*else{
 				$_SESSION['id'] ="5444";
 			}*/
-			$_SESSION['success'] = "You are now logged in";
+			$_SESSION['success'] = "You are now logged in.";
 			header('location: profile.php'); //Redirect to user-profile page
 			} else{
 				array_push($errors,"The username/password combination is not correct.");
