@@ -57,7 +57,7 @@
 			<td>".$qresult['fk_id']."</td>
 			<td>".$qresult['id']."</td>
 			<td>".$qresult['filename']."</td>
-			<td><a href='download.php?filename=$qresult[filename]'>Download</td>
+			<td><a href=download.php?filename=$qresult[filename]'>Download</td>
 			</tr>
 		";
 	}
