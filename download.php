@@ -8,7 +8,7 @@ if(!empty($fname)){
 
 	if(!empty($fname) && file_exists($path)){
 		header("Content-Description: File transfer");
-		header("Content-Disposition: attachment; filename=$filename"); // Bez ovog headera ne radi download fileova
+		header("Content-Disposition: attachment; filename=$filename"); // Without this header file download does not work because if not specified it will try to 'read' file?
 		header("Content-Type: file");
 		readfile($path);
 

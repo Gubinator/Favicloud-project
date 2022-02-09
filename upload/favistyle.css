@@ -1,0 +1,54 @@
+
+body {
+  background-color: black;
+  background-repeat: space;
+}
+
+
+.navhoriz {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+  }
+
+ li{
+
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    
+ }
+
+
+  ul{
+    padding-left: 726px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  
+
+  .logo{
+    height: 22%;
+    width: 22%;
+    display: block;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button.link { 
+    background:none;
+    border:none; 
+    color: white; 
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-size: 18px;
+  }
+

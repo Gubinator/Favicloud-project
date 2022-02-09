@@ -10,11 +10,11 @@
 <body>
 	
 	<div class="header">
-		<a href="main.php" class="Back"><li>Back to main</li></a>
+		<a href="javascript:history.back()" class="Back href-color"><img src="images/warrow.png" class="back-arrow"></a>
 
 		<div class="header">
-			<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="pagelogo"></a>
-			<p class="Description">Dashboard</p>
+			<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="pagelogo dashboard-pl"></a>
+			<p class="Description dashboard-pl">Dashboard</p>
 		</div>
 	</div>
 

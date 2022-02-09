@@ -13,6 +13,10 @@ form, .content{
 	font-family: Helvetica;
 }
 
+.href-color{
+	color: inherit;
+}
+
 .form-padding{
 	margin-top: 35px;
 }
@@ -65,6 +69,11 @@ form, .content{
 	border: 1px solid #3c763d;
 	margin-bottom: 20px;
 }
+.back-arrow{
+	height: 5%;
+    width: 5%;
+    margin-left: 40px;
+}
 
 .logo{
     height: 22%;
@@ -83,6 +92,7 @@ form, .content{
     margin-left: auto;
     margin-right: auto;
   }
+
 
 .m-li{
 
@@ -209,8 +219,10 @@ table.profileTable tfoot td {
 }
 
 .Back{
+    font-family: Helvetica;
+    color: white;
     display: block;
-       height: 50%;
+    height: 50%;
     width: 50%;
     padding-top: 50px;
 

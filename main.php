@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +9,7 @@
 	<title>Favicloud</title>
 	<link href="style2.css" rel="stylesheet">
 </head>
+
 
 <body>
 

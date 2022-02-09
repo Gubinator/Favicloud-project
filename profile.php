@@ -3,7 +3,7 @@
 	if (empty($_SESSION['username'])){
 		header('location: login.php');
 	}
-	$g_id=$_SESSION['id'];
+	$g_id=$_SESSION['id']; // Getting PK from FaviRegister (FK in FaviBlob)
 
 	//var_dump($g_id);
 	//echo 'pasta';
@@ -45,9 +45,9 @@
 
 	<div class="Description p-margin">
 		<ul>
-			<li class="p-li"><a href="main.php">Main</a></li>
+			<li class="p-li"><a href="main-session.php" class="href-color">Main</a></li>
 			<li class="p-li p-li-spacing"></li>
-			<li class="p-li"><a href="dashboard.php">Dashboard</a></li>
+			<li class="p-li"><a href="dashboard.php" class="href-color">Dashboard</a></li>
 		</ul>
 	</div>
 	<form method="post" enctype="multipart/form-data">
@@ -74,19 +74,19 @@
 	$connect =mysqli_connect("localhost", "root", "jasamgubo99", "FaviCloudSiteData");
 	if (isset($_POST["insert"])) {
 	$file=addslashes(file_get_contents($_FILES["file"]["tmp_name"]));
-	$pk=addslashes("1");
-	$filename=addslashes("random");
 	$name=basename( $_FILES['file']['name']);
-
+	if(empty($name)){
+		echo '<script>alert("Plase select a file before uploading.")</script>';
+		header("Refresh:0"); // Without refresh it just ends SELECT query - which results in not displaying other uploaded files
+		die('mysql query error: ' . mysqli_error($connect));
+	}
 	$path="upload/".$name;
 	$nametmp=($_FILES["file"]["tmp_name"]);
-
 	$query="INSERT INTO FaviBlob(name, fk_id, filename, access) VALUES ('$file','$g_id','$name', 'public')" ;
-	$last_id = mysqli_insert_id($connect);
 	if (mysqli_query($connect, $query)) {
 		move_uploaded_file($nametmp, $path);
 		echo '<script>alert("File inserted into database")</script>';
-		echo "<script>window.location=''</script>"; // Zaustavlja na refresh stranice PONOVNO UPLOADANJE 
+		echo "<script>window.location=''</script>"; // Zaustavlja na refresh stranice PONOVNO UPLOADANJE It stops  
 	}
 	else{
 		die('mysql query error: ' . mysqli_error($connect)); 
