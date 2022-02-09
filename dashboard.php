@@ -13,7 +13,17 @@
 		<a href="javascript:history.back()" class="Back href-color"><img src="images/warrow.png" class="back-arrow"></a>
 
 		<div class="header">
-			<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="pagelogo dashboard-pl"></a>
+
+			<?php include('server.php'); //This block of code is used just for redirecting different types of main pages (main.php, main-session.php) depending on session when clicking logo
+
+				if (!empty($_SESSION['username'])){
+					echo '<a href="main.php"><img src="images/logo-png.png" alt="Favicloud" class="pagelogo dashboard-pl"></a>';
+				}
+				else{
+					echo '<a href="main-session.php"><img src="images/logo-png.png" alt="Favicloud" class="pagelogo dashboard-pl"></a>';
+				}
+			?> 
+
 			<p class="Description dashboard-pl">Dashboard</p>
 		</div>
 	</div>

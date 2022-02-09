@@ -21,7 +21,7 @@
 </head>
 <body>
 	<div class="header">
-		<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="pagelogo"></a>
+		<a href='main-session.php'><img src="images/logo-png.png" alt="Favicloud" class="pagelogo"></a>
 		<p class="Description">Profile page</p>
 	</div>
 
