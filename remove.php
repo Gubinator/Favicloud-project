@@ -1,7 +1,7 @@
 
 <?php 
 
-$connect =mysqli_connect("localhost", "root", "jasamgubo99", "FaviCloudSiteData");
+$connect =mysqli_connect("localhost", "root", "", "FaviCloudSiteData");  // Without password - pass hint 99
 
 $id=$_GET['id'];
 $query= "DELETE FROM FaviBlob WHERE id='$id'";

@@ -71,7 +71,7 @@
 
 		<?php 
 	
-	$connect =mysqli_connect("localhost", "root", "jasamgubo99", "FaviCloudSiteData");
+	$connect =mysqli_connect("localhost", "root", "", "FaviCloudSiteData"); // Without password - pass 99
 	if (isset($_POST["insert"])) {
 	$file=addslashes(file_get_contents($_FILES["file"]["tmp_name"]));
 	$name=basename( $_FILES['file']['name']);

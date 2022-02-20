@@ -7,7 +7,7 @@ $email="";
 $errors=array();
 
 //Connect to db
-$db=mysqli_connect('localhost', 'root','jasamgubo99','FaviCloudSiteData') or die($db);
+$db=mysqli_connect('localhost', 'root','','FaviCloudSiteData') or die($db); // Without password - pass hint 99
 
 if(isset($_POST['register'])){
 	$username = mysqli_real_escape_string($db,$_POST['username']);
