@@ -14,7 +14,7 @@
 <body>
 
 	
-	<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="logo"></a>
+	<a href='main.php'><img src="images/logo-png.png" alt="Favicloud" class="logo fade-in-image"></a>
 	<ul class="m-ul">
 		<a href="dashboard.php"><li class="m-li">DASHBOARD</li></a>
 		<li class="m-li">|</li>

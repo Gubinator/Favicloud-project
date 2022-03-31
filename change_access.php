@@ -1,7 +1,7 @@
 
 <?php 
 
-$connect =mysqli_connect("localhost", "root", "", "FaviCloudSiteData");  // Without password - pass hint 99
+$connect =mysqli_connect("localhost", "root", "jasamgubo99", "FaviCloudSiteData");  // Without password - pass hint 99
 
 $id=$_GET['id'];
 $access=$_GET['access'];

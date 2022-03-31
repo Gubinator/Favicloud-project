@@ -42,7 +42,7 @@
 
 		<?php 
 	
-	$connect =mysqli_connect("localhost", "root", "", "FaviCloudSiteData"); // Without password - pass hint 99
+	$connect =mysqli_connect("localhost", "root", "jasamgubo99", "FaviCloudSiteData"); // Without password - pass hint 99
 
 	$query="SELECT * FROM FaviBlob WHERE access='public'" ;
 	$data=mysqli_query($connect, $query);
