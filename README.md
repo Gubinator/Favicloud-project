@@ -13,7 +13,7 @@ ovaj projekt je prvobitno napravljen kao projektni zadatak za studentsku praksu 
 
 <p align="center">
   <img src="https://i.imgur.com/NRAl35Y.jpg" />
-  <spacer type="horizontal" width="100" height="100"> ♢ </spacer>
+  <spacer type="horizontal" width="100" height="200"> &nbsp </spacer>
 </p>
 
 ## Getting Started
@@ -29,8 +29,9 @@ Registration page where users can register an account and pick their username an
 
 <p align="center">
   <img src="https://i.imgur.com/YRCnGpW.jpg" />
-  <spacer type="horizontal" width="100" height="100"> ♢ </spacer>
+  <spacer type="horizontal" width="100" height="200"> &nbsp </spacer>
 </p>
+<spacer type="horizontal" width="100" height="200"> &nbsp </spacer>
 
 
 * Login
