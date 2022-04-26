@@ -62,7 +62,7 @@ Public files are shareable, meaning that the user can send a link to the file to
 
 ### Author
 
-Dominik Gubo -[@Gubinator](https://github.com/Gubinator/).
+Dominik Gubo - [@Gubinator](https://github.com/Gubinator/).
 Business mail: dominik.gubo2@gmail.com
 
 ## Version History (Laboratory exercise ver.)
@@ -84,6 +84,7 @@ Business mail: dominik.gubo2@gmail.com
 
 Inspiration, code snippets, etc.
 * [Mentor bbutkovic](https://github.com/bbutkovic)
-* [Many funny Indians](https://www.youtube.com/watch?v=dz28Y3VMUQ8)
-* Proffessors at FERIT
+* Proffessors at [FERIT](https://www.ferit.unios.hr/2021/)
+* W3Schools, StackOverflow, GeeksForGeeks... 
+* [etc..](https://www.youtube.com/watch?v=dz28Y3VMUQ8)
 
