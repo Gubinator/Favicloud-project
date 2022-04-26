@@ -62,7 +62,7 @@ Public files are shareable, meaning that the user can send a link to the file to
 
 ### Author
 
-Dominik Gubo -[@Gubinator](https://github.com/Gubinator/).
+Dominik Gubo - [@Gubinator](https://github.com/Gubinator/).
 Business mail: dominik.gubo2@gmail.com
 
 
