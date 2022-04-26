@@ -12,7 +12,7 @@ this project was first made as a project-task for a student internship for a Fav
 ovaj projekt je prvobitno napravljen kao projektni zadatak za studentsku praksu tvrtke Favicode. Projekt je funkcionalan, no napravljen je proceduralno a trebao bi biti više objektno orijentiran i treba dodati AJAX za klijent-server stranu što bi rezultiralo dinamičnijom stranicom. Zadaća laboratorijskih vježbi kolegija WEB Programiranje na FERIT-u biti će implementacija spomenutog. Aplikacija je jednostavnija verzija web-servisa poput Google drivea, Dropboxa, Mege i sl. za prijenos i preuzimanje vlastitih datoteka na internet.  
 
 ![Main](https://i.imgur.com/NRAl35Y.jpg)
-
+<div style="text-align:center"><img src="https://i.imgur.com/NRAl35Y.jpg" /></div>
 
 
 ## Getting Started
