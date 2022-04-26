@@ -28,20 +28,18 @@ Registration page where users can register an account and pick their username an
 
 <p align="center">
   <img src="https://i.imgur.com/YRCnGpW.jpg" />
-  <spacer type="horizontal" width="100" height="900"> &nbsp </spacer>
 </p>
 
 
 
 * Login
 Login page where users can log in to their account using their username and password.
-  <spacer type="horizontal" width="100" height="200"> &nbsp </spacer>
+&nbsp
 * Dashboard (File list)
 Each user’s dashboard shows their uploaded files in a list. This list allows you to access each individual file. 
-
+&nbsp
    <p align="center">
   <img src="https://i.imgur.com/jx8hnKo.jpg" />
-  <spacer type="horizontal" width="100" height="200"> &nbsp </spacer>
    </p>
 
 
@@ -49,7 +47,8 @@ Each user’s dashboard shows their uploaded files in a list. This list allows y
 * File upload
 The file upload page contains a button to select your file and upload it to the service. 
 Once a user uploads a file it appears in their dashboard.
-
+&nbsp
+&nbsp
    <p align="center">
   <img src="https://i.imgur.com/ZP81vZY.jpg" />
   <spacer type="horizontal" width="100" height="900"> &nbsp </spacer>
