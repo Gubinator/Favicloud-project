@@ -11,7 +11,6 @@ this project was first made as a project-task for a student internship for a Fav
 * **HR**:
 ovaj projekt je prvobitno napravljen kao projektni zadatak za studentsku praksu tvrtke Favicode. Projekt je funkcionalan, no napravljen je proceduralno a trebao bi biti više objektno orijentiran i treba dodati AJAX za klijent-server stranu što bi rezultiralo dinamičnijom stranicom. Zadaća laboratorijskih vježbi kolegija WEB Programiranje na FERIT-u biti će implementacija spomenutog. Aplikacija je jednostavnija verzija web-servisa poput Google drivea, Dropboxa, Mege i sl. za prijenos i preuzimanje vlastitih datoteka na internet.  
 
-![Main](https://i.imgur.com/NRAl35Y.jpg)
 <p align="center">
   <img src="https://i.imgur.com/NRAl35Y.jpg" />
 </p>
@@ -26,19 +25,30 @@ PHP, HTML, CSS, JS, MySql (database storage)
 
 * Registration
 Registration page where users can register an account and pick their username and password.
-   * ![Register](https://i.imgur.com/YRCnGpW.jpg)
+
+<p align="center">
+  <img src="https://i.imgur.com/YRCnGpW.jpg" />
+</p>
+
 
 * Login
 Login page where users can log in to their account using their username and password.
 
 * Dashboard (File list)
 Each user’s dashboard shows their uploaded files in a list. This list allows you to access each individual file. 
-   * ![Dashboard](https://i.imgur.com/jx8hnKo.jpg)
+
+   <p align="center">
+  <img src="https://i.imgur.com/jx8hnKo.jpg" />
+   </p>
+
 
 * File upload
 The file upload page contains a button to select your file and upload it to the service. 
 Once a user uploads a file it appears in their dashboard.
-   * ![File settings](https://i.imgur.com/ZP81vZY.jpg)
+
+   <p align="center">
+  <img src="https://i.imgur.com/ZP81vZY.jpg" />
+   </p>
 
 
 * File settings
