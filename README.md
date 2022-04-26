@@ -29,9 +29,9 @@ Registration page where users can register an account and pick their username an
 
 <p align="center">
   <img src="https://i.imgur.com/YRCnGpW.jpg" />
-  <spacer type="horizontal" width="100" height="200"> &nbsp </spacer>
+  <spacer type="horizontal" width="100" height="900"> &nbsp </spacer>
 </p>
-<spacer type="horizontal" width="100" height="500"> &nbsp </spacer>
+
 
 
 * Login
