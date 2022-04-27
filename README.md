@@ -65,6 +65,20 @@ Public files are shareable, meaning that the user can send a link to the file to
 Dominik Gubo - [@Gubinator](https://github.com/Gubinator/).
 Business mail: dominik.gubo2@gmail.com
 
+## Version History (Laboratory exercise ver.)
+
+* LV1
+    * Added README.md file (31/03/2022)
+* LV2
+    * Not yet
+* LV3
+    * Not yet
+* LV4
+    * Not yet
+* LV5
+    * Not yet   
+
+
 
 ## Acknowledgments
 
