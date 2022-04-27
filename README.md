@@ -1,7 +1,7 @@
 # Favicloud
 
-* **EN**: Simple web-application used for downloading and uploading files.
-* **HR**: Jednostavna web-aplikacija korištena za preuzimanje i prijenos podataka.
+* **EN**: Simple web-application used for downloading and uploading files. ☁️📁
+* **HR**: Jednostavna web-aplikacija korištena za preuzimanje i prijenos podataka. ☁️📁
 
 ## Description
 
