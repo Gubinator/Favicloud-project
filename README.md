@@ -72,5 +72,5 @@ Inspiration, code snippets, etc.
 * [Mentor bbutkovic](https://github.com/bbutkovic)
 * Proffessors at [FERIT](https://www.ferit.unios.hr/2021/)
 * W3Schools, StackOverflow, GeeksForGeeks... 
-* [etc..](https://www.youtube.com/watch?v=dz28Y3VMUQ8)
+
 
