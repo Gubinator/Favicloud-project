@@ -59,6 +59,19 @@ Each file should have the option to be made “private” or “public”.
 Private files are only accessible to the user that uploaded the file.
 Public files are shareable, meaning that the user can send a link to the file to a friend and the friend should be able to download the file.
 
+## Version History (Laboratory exercise ver.)
+
+* LV1
+    * Added README.md file (31/03/2022)
+* LV2
+    * Tried to replace procedural MySql PHP with object oriented 
+* LV3
+    *  - NOT PRESENT, E-MAILED PROFESSOR (SPAN radionica: "Izrada jednostavne web-multiplayer igre koristeći SignalR") 
+* LV4
+    * Fixed issues regarding dashboard page (27/05/2022)
+* LV5
+    * Added responsive design for mobile (10/06/2022)
+
 
 ### Author
 
