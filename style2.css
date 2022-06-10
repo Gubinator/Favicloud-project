@@ -76,8 +76,7 @@ form, .content{
 }
 
 .logo{
-    height: 22%;
-    width: 22%;
+    width: 25rem;
     display: block;
     padding-top: 200px;
     margin-left: auto;
@@ -95,10 +94,10 @@ form, .content{
 
 
 .m-li{
-
+    
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 1.5rem;
     color: white;
     margin: 0;
     padding: 0;
@@ -108,7 +107,11 @@ form, .content{
 }
 
  .m-ul{
-    padding-left: 38%;
+    text-align: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: -3.25rem;
   }
 
 
@@ -127,11 +130,13 @@ form, .content{
 
 
 table.darkTable {
+  margin-left: auto;
+  margin-right: auto;
   font-family: Helvetica;
   border: 4px solid #FFFFFF;
   background-color: #E8E8E8;
   width: 100%;
-  height: 200px;
+  height: 5rem;
   text-align: center;
   border-collapse: collapse;
 }
@@ -140,7 +145,7 @@ table.darkTable td, table.darkTable th {
   padding: 3px 2px;
 }
 table.darkTable td {
-  font-size: 18px;
+  font-size: 1.5rem;
   color: #000000;
 }
 table.darkTable tr:nth-child(even) {
@@ -150,7 +155,7 @@ table.darkTable th {
   background: #050505;
 }
 table.darkTable th {
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #FFFFFF;
   text-align: center;
@@ -288,4 +293,44 @@ table.profileTable tfoot td {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+@media screen and (max-width: 480px) {
+  form, .content{
+    width: 70%;
+  }
+
+  .pagelogo{
+    width: 50%;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .back-arrow{
+    width: 18%;
+    margin-left: 40px;
+  }
+
+  table.darkTable td {
+    font-size: 0.92rem;
+  }
+
+  table.darkTable th {
+    font-size: 0.92rem;
+  }
+
+  .m-li{
+    font-size: 0.9rem;
+}
+
+
+.logo{
+  width: 20rem;
+  display: block;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
